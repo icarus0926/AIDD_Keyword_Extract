@@ -22,6 +22,6 @@ AIDDhtml, facial_CB_html: Previously scraped web pages using get_html.
 chinese_stop_words.txt: Chinese stop words.  
 WordCount.py: Sorts the first column of keywords in the output by frequency (used to visually check the distribution of extracted keywords).  
   
-# Usage Instructions:：  
+# Usage Instructions:  
 1.Run 4_get_html.py to scrape the homepage of GitHub repositories with the specified theme, including information such as the repository's readme, repo_name, etc.  
 2.Simply run 02text_cluster_prepare.py to output the keywords for the scraped repositories, with each repository using the BERT model to extract five keywords.
